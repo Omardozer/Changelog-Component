@@ -14,12 +14,11 @@ body {
   -ms-border-radius: 1.5rem;
   -o-border-radius: 1.5rem;
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
 }
-
+.container{
+    padding: 2rem;
+    text-align: center;
+}
 h1 {
   font-weight: normal;
   font-size: 40px;
@@ -32,6 +31,10 @@ p {
   padding-bottom: 20px;
   color: rgba(0, 0, 0, 0.3);
 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .date {
@@ -81,8 +84,3 @@ button
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-.container{
-    padding: 2rem;
-    text-align: center;
-}
